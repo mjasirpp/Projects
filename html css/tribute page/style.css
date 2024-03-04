@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*navbar*/
+.navigation_bar{
+    float: left;
+    background-color: black;
+    width: 100%;
+    border-radius: 12px;
+}
+.nav_ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav_li{
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.nav_li>a{
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 14px 16px;
+    text-align: center;
+}
+.nav_li:hover{
+    background-color: rgb(151, 150, 150);
+    border-radius: 12px;
+}
+.nav_li>a:hover{
+    color: rgb(21, 20, 20);
+}
+/*end navbar*/
+
+/*home*/
+.home{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.home>h2{
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    text-align: center;
+    color: rgb(121, 72, 8)
+}
+.home_img{
+    width: 100%;
+}
+.home_img>img{
+    width: 100%;
+    height: auto;
+}
+/*end home*/
+
+
+/*about*/
+.about{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+#about>p{
+    color: rgb(45, 2, 2);
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 19px;
+}
+/*end about*/
+
+
+/*timeline*/
+#timeline{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: rgb(247, 245, 244);
+}
+#timeline>h2{
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    color: rgb(121, 72, 8)
+}
+.timeline_ul>li{
+    font-size: 19px;
+}
+/*end timeline*/
+
+
+
+/*wikipedia*/
+#wikipedia{
+    border-left: 2px solid rgb(226, 216, 216);
+    width: 49%;
+    height: 90vh;
+    float: left;
+    background-color: rgb(247, 245, 244);
+}
+#wikipedia>iframe{
+    padding-top: 3%;
+    padding-left: 5%;
+    width: 90%;
+    height: 70vh;
+}
+#wikipedia>h2{
+    padding-left: 2%;
+}
+#wikipedia>a{
+    padding-left: 2%;
+    color: blueviolet;
+    text-decoration: none;
+}
+/*end wikipedia*/
+
+/*contact*/
+#contact{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: rgb(43, 41, 39);
+}
+.para{
+    float: left;
+    color: aliceblue;
+    width: 33.33%;
+    height: 20vh;
+}
+.para>p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.links{
+    float: left;
+    width: 33.33%;
+    height: 20vh;
+}
+#icons{
+    padding-top: 10%;
+}
+.links>a{
+    padding-left: 35%;
+}
+.image{
+    float: left;
+    width: 33.33%;
+    height: 20vh;
+}
+.image>img{
+    width: 35%;
+    height: 20vh;
+    padding-left: 30%;
+}
+/*end contact*/
+
+/*responsive*/
+@media only screen and (max-width: 1000px){
+    /*nav*/
+    .nav_li{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    /*tab*/
+    .nav_li{
+        width: 100%;
+    }
+    #timeline, #wikipedia{
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 480px){
+    /*mobile*/
+    .nav_li, .para, .links, .image{
+        width: 100%;
+        float: left;
+    } 
+    #timeline, #wikipedia{
+        height: auto;
+        width: 100%;
+        float: left;
+    }
+}

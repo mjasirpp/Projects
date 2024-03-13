@@ -28,7 +28,7 @@ const search = async ()=>{
 
             <div class="outputResults">
                 <p class="card-text"><span><i class="fa-sharp fa-solid fa-house-tsunami"></i></span><span id="humidityLevel">${humidity}%</span><br> Humidity</p>
-                <p class="card-text"><span><i class="fa-sharp fa-solid fa-wind"></i></span><span id="humidityLevel">${wind} </span><br> Wind Speed</p>
+                <p class="card-text"><span><i class="fa-sharp fa-solid fa-wind"></i></span><span id="humidityLevel">${wind}km/h </span><br> Wind Speed</p>
             </div>
         `   
     }

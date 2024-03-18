@@ -1,0 +1,23 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+}
+.logo{
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 70px;
+}
+.ava{
+    position: fixed;
+    right: 20px;
+    top: 1;
+    width: 30px;
+}

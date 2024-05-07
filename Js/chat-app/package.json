@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "chat2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "mj_jasir",
+  "license": "ISC",
+  "description": ""
+}

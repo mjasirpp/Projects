@@ -1,1 +1,0 @@
-export const serverURL = "https://message-be-demo.onrender.com"
